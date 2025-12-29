@@ -13,6 +13,7 @@ public class SavingsAccount extends Account {
     public void withdraw(double amount) {
         if (amount > 0 && balance >= amount) {
             balance -= amount;
+            recordWithdrawal(amount);
         }
     }
 }

@@ -15,6 +15,7 @@ public class CheckingAccount extends Account {
     public void withdraw(double amount) {
         if (amount > 0 && balance - amount >= -OVERDRAFT_LIMIT) {
             balance -= amount;
+            recordWithdrawal(amount);
         }
     }
 }
