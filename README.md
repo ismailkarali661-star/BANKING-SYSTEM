@@ -63,3 +63,11 @@
 - Encapsulation: Private/protected fields
 - Composition: Account contains Transaction list
 - Interface: Transferable
+## Usage Example
+
+1. Create accounts (Savings / Checking)
+2. Deposit and withdraw money
+3. Transfer money using BankService
+4. View transaction history
+
+Run `Main.java` to see a simple console demonstration.
