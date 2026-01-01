@@ -1,5 +1,7 @@
 package banking.model;
-
+/**
+ * Represents a single banking transaction.
+ */
 import java.time.LocalDateTime;
 
 
@@ -14,11 +16,11 @@ public class Transaction {
         this.amount = amount;
         this.timestamp = LocalDateTime.now();
     }
-
+    // Returns transaction type (DEPOSIT / WITHDRAW)
     public String getType() {
         return type;
     }
-
+    // Returns transaction amount
     public double getAmount() {
         return amount;
     }
