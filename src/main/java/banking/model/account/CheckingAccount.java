@@ -1,8 +1,6 @@
 package banking.model.account;
 
-/**
- * Checking account that allows limited overdraft.
- */
+
 public class CheckingAccount extends Account {
 
     private static final double OVERDRAFT_LIMIT = 500.0;

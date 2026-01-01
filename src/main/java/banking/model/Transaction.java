@@ -2,9 +2,7 @@ package banking.model;
 
 import java.time.LocalDateTime;
 
-/**
- * Represents a bank transaction.
- */
+
 public class Transaction {
 
     private String type;
