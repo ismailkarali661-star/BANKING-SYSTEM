@@ -71,3 +71,11 @@
 4. View transaction history
 
 Run `Main.java` to see a simple console demonstration.
+## Project Features
+
+- Object-Oriented Design
+- Abstract classes and interfaces
+- Transaction history tracking
+- Service-based business logic
+- Custom exception handling
+- Console-based demo
